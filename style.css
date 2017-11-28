@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+	margin: 0;
+}
+
+*{
+	font-family: 'Varela Round', sans-serif;
+	box-sizing: border-box;
+}
+
+
+
+p{
+	padding-top: 20%;
+	width:85%;
+	margin-left:7.5%;
+}
+	
+
+.topnav {
+	top: 0;
+	left: 10%;
+	position: fixed;
+	background-color: #2d2d2d;
+	margin: auto;
+	margin-top: 0.2%;
+	width: 80%;
+	border-radius: 100px;
+  overflow: hidden;
+}
+.topnav a {
+	margin: auto;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.topnav a:hover {
+  background-color: #f2f2f2;
+  color: #2d2d2d;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px){
+    .topnav a{
+		font-size: 14px;
+}
+}
+
+
+  .bg {
+    background-image: url("orange.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+  
+  
