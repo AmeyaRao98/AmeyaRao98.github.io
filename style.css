@@ -66,9 +66,15 @@ h1{
 }
 
 .box{
+  text-align: center;
   padding: 2% 0;
   margin-top: 1%;
   margin:auto;
+}
+
+.box img{
+  margin: auto;
+  max-height:95%; max-width:95%;
 }
 
 
