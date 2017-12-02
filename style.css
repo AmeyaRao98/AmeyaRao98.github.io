@@ -1,48 +1,74 @@
-body, html {
-    height: 100%;
-	margin: 0;
-}
-
 *{
 	font-family: 'Varela Round', sans-serif;
-	box-sizing: border-box;
+  
 }
 
+html{
+    height: 100%;
+}
 
+body{
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    background: linear-gradient(#ff9000, #ffaa00);
+    background: -webkit-linear-gradient(#ff9000, #ffaa00);
+    background: -moz-linear-gradient(#ff9000, #ffaa00);
+    background: -ms-linear-gradient(#ff9000, #ffaa00);
+    background: -o-linear-gradient(#ff9000, #ffaa00);
+    background: linear-gradient(#ff9000, #ffaa00);*/
+  background-color: #fc8f8f;
+}
 
-p{
-	text-align: justify;
-	padding-top: 20%;
-	width:85%;
-	margin-left:7.5%;
+h1{
+  font-family: 'Vollkorn SC', serif;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  padding: 2.5% 0;
+  font-size: 60px;
+    
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
 	
 
 .topnav {
 	top: 0;
 	left: 10%;
-	position: fixed;
 	background-color: #2d2d2d;
 	margin: auto;
 	margin-top: 0.2%;
 	width: 80%;
 	border-radius: 100px;
   overflow: hidden;
+  
+  
 }
 .topnav a {
-	margin: auto;
+  margin: auto;
   float: left;
   display: block;
   color: #f2f2f2;
+  padding: 1.3% 0;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 19px;
 }
 
 .topnav a:hover {
-  background-color: #f2f2f2;
-  color: #2d2d2d;
+  color: #c1c1c1;
+}
+
+.box{
+  padding: 2% 0;
+  margin-top: 1%;
+  margin:auto;
 }
 
 
@@ -51,25 +77,18 @@ p{
 }
 
 @media screen and (max-width: 600px){
-    .topnav a{
-		font-size: 14px;
+    h1{
+		font-size: 40px;
 }
 }
 
-@media screen and (max-width: 400px){
-    .topnav a{
-		font-size: 10px;
+@media screen and (min-width: 1000px){
+    h1{
+		font-size: 70px;
 }
 }
 
-
-  .bg {
-    background-image: url("orange.png");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	background-attachment: fixed;
+.container-fluid{
+  text-align: center;
 }
-  
   
