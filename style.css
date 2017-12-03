@@ -25,6 +25,8 @@ body{
     background: -ms-linear-gradient(#ff9000, #ffaa00);
     background: -o-linear-gradient(#ff9000, #ffaa00);
     background: linear-gradient(#ff9000, #ffaa00);*/
+  margin: 0;
+padding: 0;
   background-color: #fc8f8f;
 }
 
@@ -144,4 +146,15 @@ h1{
 
 .navselected{
   background-color: #424242;
+}
+
+.info{
+  display:none;
+  top: 0;
+left: 0;
+position: fixed;
+width: 100%;
+height: 100%;
+  z-index: 100;
+  background-color: aqua;
 }
