@@ -15,5 +15,9 @@ $(document).ready(() => {
   
   $('.main').fadeIn(1300);
   
+  setTimeout(function(){
+       $('.titl').addClass('vis');
+   }, 1000);
+  
   
     }); 
