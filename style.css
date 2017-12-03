@@ -141,3 +141,7 @@ h1{
     
   }
 }
+
+.navselected{
+  background-color: #424242;
+}
