@@ -1,16 +1,16 @@
 $(document).ready(() => {
   $('.login').on('click', () => {
-    $('.login-ting').toggle();
+    $('.login-ting').slideToggle('fast');
     $(event.currentTarget).toggleClass('navselected');
     $('.signup').removeClass('navselected');
-    $('.signup-ting').hide();
+    $('.signup-ting').slideUp('fast');
   });
   
   $('.signup').on('click', () => {
-    $('.signup-ting').toggle();
+    $('.signup-ting').slideToggle('fast');
     $(event.currentTarget).toggleClass('navselected');
     $('.login').removeClass('navselected');
-    $('.login-ting').hide();
+    $('.login-ting').slideUp('fast');
   });
   
   $('.main').fadeIn(1300);
