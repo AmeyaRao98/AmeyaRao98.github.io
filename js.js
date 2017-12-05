@@ -22,10 +22,12 @@ $(document).ready(() => {
   $('.box').on('click', () => {
     $('.info').slideDown('fast');
     $('.main').hide();
+    $(document.body).css('overflow', 'hidden');
   });
 
   $('#back').on('click', () => {
     $('.info').slideUp('fast');
     $('.main').show();
+    $(document.body).css('overflow', 'visible');
   });
     });
