@@ -1,6 +1,5 @@
 *{
 	font-family: 'Varela Round', sans-serif;
-
 }
 
 html{
@@ -39,11 +38,11 @@ body{
 			color: #c1c1c1;
 		}
 
-		.navselected{//when a login form is selected
+		.navselected{
 			background-color: #424242;
 		}
 
-		.form{//login/sign up form
+		.form{
 			margin:1.5% 7% 0 7%;
 			padding: 2% 0;
 			background-color: white;
@@ -67,6 +66,9 @@ body{
 					margin: 1% 35% 0 35%;
 
 				}
+				.titl{
+					font-size: 70px;
+				}
 			}
 
 			.login-button{
@@ -80,7 +82,7 @@ body{
 				border: none;
 			}
 
-			.titl{//main heading
+			.titl{
 				font-family: 'Indie Flower', cursive;
 				text-align: center;
 				padding: 2.5% 0;
@@ -88,15 +90,15 @@ body{
 				visibility: hidden;
 			}
 
-			.vis{//added to titl to delay it's apperance
+			.vis{
 				visibility: visible;
 			}
 
-			.movielist{//movie list is initially invisiible and then fades in
+			.movielist{
 				display: none;
 			}
 
-			.box{//each box contains a movie
+			.box{
 				text-align: center;
 				padding: 2% 0;
 				margin-top: 1%;
@@ -110,8 +112,8 @@ body{
 					max-width:95%;
 				}
 
-				.info{//the description of the movie that covers the entire screen
-					display:none;
+				.info{
+					display: none;
 					top: 0;
 					left: 0;
 					position: fixed;
@@ -136,7 +138,7 @@ body{
 					text-align: justify;
 				}
 
-				#back{//back button in info
+				#back{
 					padding: 10px 0 0 10px;
 					cursor: pointer;
 					float:left;
